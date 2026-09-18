@@ -455,7 +455,7 @@ export default function Navbar() {
       </AnimatePresence>
 
       <header
-        className="fixed top-4 sm:top-6 lg:top-10 left-3 right-3 sm:left-4 sm:right-4 z-50 font-sans pointer-events-none flex justify-center"
+        className="fixed top-4 sm:top-6 lg:top-10 left-3 right-3 sm:left-4 sm:right-4 z-50 font-schibsted pointer-events-none flex justify-center"
         onMouseLeave={() => setActiveMenu(null)}
       >
         <div

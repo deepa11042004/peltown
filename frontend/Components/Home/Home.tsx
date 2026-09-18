@@ -36,11 +36,11 @@ const SERVICES = [
 export default function Home() {
   const [index, setIndex] = useState(0);
 
-  // Loop through titles every 2 seconds
+  // Loop through titles every 5 seconds
   useEffect(() => {
     const timer = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % HERO_CONTENT.length);
-    }, 2000);
+    }, 5000);
     return () => clearInterval(timer);
   }, []);
 
@@ -127,7 +127,7 @@ export default function Home() {
                   className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-zinc-400 shadow-xs text-left"
                 >
                   <span className="h-1.5 w-1.5 rounded-full bg-[#BFCA16] animate-pulse" />
-                  <span className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-(--headingColor) uppercase">
+                  <span className="font-schibsted text-[10px] md:text-xs font-bold tracking-[0.2em] text-(--headingColor) uppercase">
                     {HERO_CONTENT[index].tagline}
                   </span>
                 </motion.div>
@@ -177,43 +177,7 @@ export default function Home() {
         </motion.div>
       </motion.div>
 
-      {/* Bottom Infinite Marquee Section */}
-      <motion.div
-        className="mt-16 border-t border-neutral-900 pt-8 w-full relative overflow-hidden"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.6, duration: 0.5 }}
-      >
-        {/* Left & Right Blending Edge Fades */}
-        <div className="absolute left-0 top-8 bottom-0 w-16 bg-linear-to-r from-[#BFCA16] to-transparent z-10 pointer-events-none" />
-        <div className="absolute right-0 top-8 bottom-0 w-16 bg-linear-to-l from-[#BFCA16] to-transparent z-10 pointer-events-none" />
 
-        {/* Marquee Track */}
-        <div className="flex overflow-hidden w-full gap-6">
-          <motion.div
-            className="flex flex-nowrap gap-6 shrink-0 pr-6"
-            animate={{ x: "-50%" }}
-            transition={{
-              ease: "linear",
-              duration: 25,
-              repeat: Infinity,
-            }}
-          >
-            {/* Double mapping guarantees a completely seamless loop without gaps */}
-            {[...SERVICES, ...SERVICES, ...SERVICES, ...SERVICES].map(
-              (service, idx) => (
-                <div
-                  key={idx}
-                  className="group px-6 py-3 bg-zinc-900 text-neutral-300 font-medium rounded-full text-md border border-neutral-800 flex items-center gap-2 whitespace-nowrap cursor-default hover:text-white hover:border-neutral-300 transition-colors duration-200"
-                >
-                  {service.label}
-                  <ArrowRight className="w-4 h-4 opacity-60 text-neutral-400 group-hover:opacity-100 transition-transform duration-200 group-hover:-rotate-45" />
-                </div>
-              ),
-            )}
-          </motion.div>
-        </div>
-      </motion.div>
     </main>
   );
 }

@@ -61,3 +61,16 @@
 
 /* --fontsize : text-4xl md:text-5xl lg:text-6xl */
 /* --descSize : text-xs md:text-sm font-medium */
+
+@layer base {
+  p {
+    font-family: var(--font-quicksand), sans-serif;
+  }
+  h2, h3, h4, h5, h6, button, .tag, .tagline {
+    font-family: var(--font-schibsted), sans-serif;
+  }
+}
+
+.font-schibsted {
+  font-family: var(--font-schibsted), sans-serif;
+}
