@@ -9,6 +9,8 @@ import {
   Database,
   SearchCode,
   Server,
+  Cpu,
+  Megaphone,
 } from "lucide-react";
 import Image from "next/image";
 
@@ -17,31 +19,43 @@ const SERVICES = [
     icon: Monitor,
     title: "Website Design",
     desc: "Sleek, SEO-friendly, and business-driven websites tailored to your goals.",
-    img: "/Img/services/web-dev.png",
+    img: "/Img/services/website-development.webp",
   },
   {
     icon: Smartphone,
     title: "Mobile App Development",
     desc: "Transform your ideas into fully functional, high-performing mobile applications.",
-    img: "/Img/services/app-dev.png",
+    img: "/Img/services/mobile-app.webp",
   },
   {
     icon: Database,
     title: "CRM Solutions",
     desc: "Enhance customer experiences and streamline management with custom CRMs.",
-    img: "/Img/services/crm-sol.png",
+    img: "/Img/services/crm-solutions.webp",
+  },
+  {
+    icon: Cpu,
+    title: "ERP Systems",
+    desc: "Centralize operations with future-proof, AI-driven ERP software.",
+    img: "/Img/services/erp.webp",
+  },
+  {
+    icon: Megaphone,
+    title: "Digital Marketing",
+    desc: "Comprehensive PPC and digital ad campaigns engineered for maximum ROI.",
+    img: "/Img/services/digital-marketing.webp",
   },
   {
     icon: SearchCode,
-    title: "SEO & Marketing",
+    title: "SEO Optimization",
     desc: "Increase online visibility and drive organic traffic with proven strategies.",
-    img: "/Img/services/seo-market.png",
+    img: "/Img/services/seo.webp",
   },
   {
     icon: Server,
     title: "Hosting & Server",
     desc: "Reliable hosting solutions from basic breeze to turbo titan performance.",
-    img: "/Img/services/host-server.png",
+    img: "/Img/services/hosting-server.webp",
   },
 ];
 
@@ -59,13 +73,13 @@ export default function ServiceSec() {
       const width = window.innerWidth;
 
       // Determine card width based on screen size
-      let cardWidth = 360; // md:w-90 = 22.5rem = 360px
+      let cardWidth = 336; // md:w-84 = 21rem = 336px
       if (width < 768) {
-        cardWidth = 300; // w-75 = 18.75rem = 300px
+        cardWidth = 288; // w-72 = 18rem = 288px
       }
 
       const gap = 24; // gap-6 = 1.5rem = 24px
-      const numCards = 5;
+      const numCards = SERVICES.length;
 
       // The parent of the slider track has left/right padding:
       // px-6 (24px) on mobile, md:px-16 (64px) on tablet, lg:px-24 (96px) on desktop.
@@ -101,30 +115,30 @@ export default function ServiceSec() {
   const x = useTransform(scrollYProgress, [0, 1], xRange);
 
   return (
-    <div ref={targetRef} className="relative h-[280vh] bg-white">
+    <div ref={targetRef} className="relative h-[350vh] bg-white">
       {/* Sticky Frame Viewport Lock */}
-      <div className="sticky top-0 h-screen w-full flex flex-col justify-center overflow-hidden px-6 md:px-16 lg:px-24">
-        <div className="max-w-7xl w-full mx-auto space-y-12 relative flex flex-col">
+      <div className="sticky top-0 h-screen w-full flex flex-col justify-center overflow-hidden px-6 md:px-16 lg:px-24 py-4">
+        <div className="max-w-7xl w-full mx-auto space-y-6 md:space-y-8 relative flex flex-col">
           {/* Top Header Split Grid Layout */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-12 items-center w-full">
-            <div className="lg:col-span-6 space-y-2">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-center w-full">
+            <div className="lg:col-span-6 space-y-1.5">
               <motion.div
                 initial={{ opacity: 0, x: -12 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.55 }}
-                className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-zinc-400 shadow-xs text-left mb-2"
+                className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-zinc-400 shadow-xs text-left mb-1"
               >
                 <span className="h-1.5 w-1.5 rounded-full bg-[#BFCA16] animate-pulse" />
                 <span className="text-[10px] md:text-xs font-bold tracking-[0.2em] text-black uppercase">
                   What We Offer
                 </span>
               </motion.div>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-headingColor leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-headingColor leading-tight">
                 Comprehensive <br /> IT Services
               </h2>
             </div>
             <div className="lg:col-span-6">
-              <p className="text-descriptionColor text-base md:text-md font-medium leading-relaxed max-w-xl lg:ml-auto">
+              <p className="text-descriptionColor text-sm md:text-base font-medium leading-relaxed max-w-xl lg:ml-auto">
                 From infrastructure management to custom software development,
                 we provide the expertise to propel your business forward.
               </p>
@@ -138,25 +152,25 @@ export default function ServiceSec() {
                 return (
                   <div
                     key={index}
-                    className="h-80 w-75 md:w-90 shrink-0 bg-cardBgColor border border-cardBorderColor rounded-4xl p-8 flex flex-col justify-between text-left relative overflow-hidden transition-all duration-300 group cursor-pointer hover:bg-[#BFCA16]"
+                    className="h-[340px] md:h-[360px] w-72 md:w-84 shrink-0 bg-cardBgColor border border-cardBorderColor rounded-3xl p-5 md:p-6 flex flex-col justify-between text-left relative overflow-hidden transition-all duration-300 group cursor-pointer hover:bg-[#BFCA16]"
                   >
-                    {/* IMAGE CONTAINER */}
-                    <div className="relative h-20 w-full">
+                    {/* IMAGE CONTAINER - FULL WIDTH */}
+                    <div className="relative h-28 md:h-36 w-full flex items-center justify-center overflow-hidden">
                       <Image
                         src={feat.img}
                         alt={feat.title}
-                        width={150}
-                        height={150}
-                        className="absolute -left-8"
+                        fill
+                        className="object-contain object-center transition-transform duration-300 group-hover:scale-105"
+                        sizes="(max-width: 768px) 280px, 340px"
                       />
                     </div>
 
                     {/* CONTENT ELEMENT COPIES */}
-                    <div className="space-y-2.5 relative z-10">
-                      <h3 className="text-xl font-bold tracking-tight text-zinc-950 group-hover:text-white transition-colors duration-200">
+                    <div className="space-y-1.5 relative z-10">
+                      <h3 className="text-lg md:text-xl font-bold tracking-tight text-zinc-950 group-hover:text-white transition-colors duration-200">
                         {feat.title}
                       </h3>
-                      <p className="text-xs md:text-sm text-descriptionColor group-hover:text-white/80 font-medium leading-relaxed transition-colors duration-200">
+                      <p className="text-xs md:text-sm text-descriptionColor group-hover:text-white/80 font-medium leading-relaxed transition-colors duration-200 line-clamp-2">
                         {feat.desc}
                       </p>
                     </div>
