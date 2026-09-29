@@ -14,27 +14,27 @@ interface GalleryImage {
 
 const galleryImages: GalleryImage[] = [
   {
-    src: "/Img/product1.webp",
+    src: "/Img/products/product1.webp",
     alt: "Portrait with flowing hair in golden light",
     width: 350,
   },
   {
-    src: "/Img/product2.webp",
+    src: "/Img/products/product2.webp",
     alt: "Couple at a candlelit dinner table",
     width: 350,
   },
   {
-    src: "/Img/product3.webp",
+    src: "/Img/products/product3.webp",
     alt: "Beauty close-up with iridescent eyeshadow",
     width: 350,
   },
   {
-    src: "/Img/product4.webp",
+    src: "/Img/products/product4.webp",
     alt: "Black and white studio portrait",
     width: 350,
   },
   {
-    src: "/Img/product5.webp",
+    src: "/Img/products/product5.webp",
     alt: "Spa bottle product shot on green backdrop",
     width: 350,
   },

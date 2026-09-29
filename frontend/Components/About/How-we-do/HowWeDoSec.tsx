@@ -10,28 +10,28 @@ const HOW_WE_DO_DATA = [
     title: "Discovery & Brainstorming",
     tagline:
       "We start by understanding your business goals, target audience, and requirements. This phase involves deep research and brainstorming ideas to set a solid foundation.",
-    image: "/Img/how1.webp",
+    image: "/Img/how_to/how1.webp",
   },
   {
     id: "02",
     title: "Planning & Strategy",
     tagline:
       "We create a detailed roadmap, site architecture, and wireframes. This ensures that everyone is aligned on the project scope and deliverables before development begins.",
-    image: "/Img/how2.webp",
+    image: "/Img/how_to/how2.webp",
   },
   {
     id: "03",
     title: "Design & Development",
     tagline:
       "Our designers create stunning visuals while our developers bring them to life with clean, efficient code. We follow best practices for performance and security.",
-    image: "/Img/how3.webp",
+    image: "/Img/how_to/how3.webp",
   },
   {
     id: "04",
     title: "Launch & Support",
     tagline:
       "After rigorous testing, we launch your project. But our relationship doesn't end there; we provide ongoing support and maintenance to ensure long-term success.",
-    image: "/Img/how4.webp",
+    image: "/Img/how_to/how4.webp",
   },
 ];
 

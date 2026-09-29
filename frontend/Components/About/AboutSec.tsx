@@ -421,7 +421,7 @@ function Hero() {
           transition={{ duration: 0.7, delay: 0.25 }}
         >
           <Image
-            src="/Img/about_peltown.webp"
+            src="/Img/misc/about_peltown.webp"
             alt="About Peltown"
             width={760}
             height={400}

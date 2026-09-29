@@ -88,7 +88,7 @@ const projects: Project[] = [
       "Admin dashboard",
     ],
     icon: GraduationCap,
-    image: "/Img/bserc.webp",
+    image: "/Img/clients/bserc.webp",
   },
   {
     code: "P02",
@@ -104,7 +104,7 @@ const projects: Project[] = [
       "SEO optimization",
     ],
     icon: GraduationCap,
-    image: "/Img/bserc.webp",
+    image: "/Img/clients/bserc.webp",
     link: "https://bserc.in/",
   },
   {
@@ -120,7 +120,7 @@ const projects: Project[] = [
       "Performance optimization",
     ],
     icon: HeartPulse,
-    image: "/Img/callories.webp",
+    image: "/Img/clients/callories.webp",
     link: "https://callories.com/",
   },
   {
@@ -137,7 +137,7 @@ const projects: Project[] = [
       "Customer dashboard",
     ],
     icon: ShoppingCart,
-    image: "/Img/everce.webp",
+    image: "/Img/clients/everce.webp",
     link: "https://everce.com/",
   },
   {
@@ -154,7 +154,7 @@ const projects: Project[] = [
       "Responsive design",
     ],
     icon: Moon,
-    image: "/Img/islam.webp",
+    image: "/Img/clients/islam.webp",
     link: "https://islamicdukaan.com/",
   },
   {
@@ -171,7 +171,7 @@ const projects: Project[] = [
       "Mobile-friendly interface",
     ],
     icon: Home,
-    image: "/Img/jvm.webp",
+    image: "/Img/clients/jvm.webp",
     link: "https://jvmrealestate.com/",
   },
   {
@@ -187,7 +187,7 @@ const projects: Project[] = [
       "Customer support integration",
     ],
     icon: Plane,
-    image: "/Img/mecure.webp",
+    image: "/Img/clients/mecure.webp",
     link: "https://mercurevacationclub.com/",
   },
   {
@@ -203,7 +203,7 @@ const projects: Project[] = [
       "Corporate branding",
     ],
     icon: Code2,
-    image: "/Img/mpis.webp",
+    image: "/Img/clients/mpis.webp",
     link: "https://mpis-two.vercel.app/",
   },
   {
@@ -219,7 +219,7 @@ const projects: Project[] = [
       "Content management",
     ],
     icon: Plane,
-    image: "/Img/rose.webp",
+    image: "/Img/clients/rose.webp",
     link: "https://rosewood-flame.vercel.app/",
   },
   {
@@ -235,7 +235,7 @@ const projects: Project[] = [
       "Contact management",
     ],
     icon: Stethoscope,
-    image: "/Img/saraswati.png",
+    image: "/Img/clients/saraswati.png",
     link: "https://saraswatihospitalynr.com/",
   },
   {
@@ -251,7 +251,7 @@ const projects: Project[] = [
       "User dashboard",
     ],
     icon: Trophy,
-    image: "/Img/smash.webp",
+    image: "/Img/clients/smash.webp",
     link: "https://smash2play.com/",
   },
   {
@@ -267,7 +267,7 @@ const projects: Project[] = [
       "Application tracking",
     ],
     icon: Briefcase,
-    image: "/Img/stack.webp",
+    image: "/Img/services/stack.webp",
     link: "https://stacksolutions.in/",
   },
   {
@@ -283,7 +283,7 @@ const projects: Project[] = [
       "Student resources",
     ],
     icon: GraduationCap,
-    image: "/Img/upmi.webp",
+    image: "/Img/clients/upmi.webp",
     link: "https://upmi.in/",
   },
   {
@@ -299,7 +299,7 @@ const projects: Project[] = [
       "Contact management",
     ],
     icon: Megaphone,
-    image: "/Img/watnidea.webp",
+    image: "/Img/clients/watnidea.webp",
     link: "https://watnidea.com/",
   },
 
@@ -316,7 +316,7 @@ const projects: Project[] = [
       "Customer support integration",
     ],
     icon: Plane,
-    image: "/Img/mandarin.webp",
+    image: "/Img/clients/mandarin.webp",
     link: "https://vacation-frontend-xi.vercel.app/",
   },
 ];
@@ -882,7 +882,7 @@ export default function Portfolio() {
                     {/* Image Section with overlay */}
                     <div className="relative aspect-4/3 w-full overflow-hidden bg-zinc-800">
                       <Image
-                        src={project.image || "/Img/about_peltown.webp"}
+                        src={project.image || "/Img/misc/about_peltown.webp"}
                         alt={project.name}
                         fill
                         className="object-cover transition-transform duration-700 group-hover:scale-110"

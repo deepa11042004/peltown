@@ -108,7 +108,7 @@ export default function LoginPage() {
           className="relative z-10 w-full max-w-125 aspect-square flex items-center justify-center"
         >
           <Image
-            src="/Img/login_security_penguin.png"
+            src="/Img/auth/login_security_penguin.png"
             alt="Peltown Security Guard Penguin"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"

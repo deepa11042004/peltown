@@ -40,7 +40,7 @@ const projects: ProjectData[] = [
       "Admin dashboard",
     ],
     icon: GraduationCap,
-    image: "/Img/bserc.webp",
+    image: "/Img/clients/bserc.webp",
   },
   {
     code: "P02",
@@ -55,7 +55,7 @@ const projects: ProjectData[] = [
       "Performance optimization",
     ],
     icon: HeartPulse,
-    image: "/Img/callories.webp",
+    image: "/Img/clients/callories.webp",
     link: "https://callories.com/",
   },
   {
@@ -72,7 +72,7 @@ const projects: ProjectData[] = [
       "Customer dashboard",
     ],
     icon: ShoppingCart,
-    image: "/Img/everce.webp",
+    image: "/Img/clients/everce.webp",
     link: "https://everce.com/",
   },
   {
@@ -88,7 +88,7 @@ const projects: ProjectData[] = [
       "Contact management",
     ],
     icon: Megaphone,
-    image: "/Img/watnidea.webp",
+    image: "/Img/clients/watnidea.webp",
     link: "https://watnidea.com/",
   },
   {
@@ -105,7 +105,7 @@ const projects: ProjectData[] = [
       "Mobile-friendly interface",
     ],
     icon: Home,
-    image: "/Img/jvm.webp",
+    image: "/Img/clients/jvm.webp",
     link: "https://jvmrealestate.com/",
   },
   {
@@ -121,7 +121,7 @@ const projects: ProjectData[] = [
       "Customer support integration",
     ],
     icon: Plane,
-    image: "/Img/mandarin.webp",
+    image: "/Img/clients/mandarin.webp",
     link: "https://vacation-frontend-xi.vercel.app/",
   },
 ];

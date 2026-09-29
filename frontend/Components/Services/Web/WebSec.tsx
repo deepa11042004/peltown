@@ -191,27 +191,27 @@ const DEFAULT_AUDIENCE: AudienceConfig = {
     {
       title: "Startups & New Ventures",
       desc: "Building MVP (Minimum Viable Product) websites in as little as 4 weeks to help you enter the market quickly.",
-      img: "/Img/web-dev.png",
+      img: "/Img/services/web-dev.png",
     },
     {
       title: "Small to Mid-Sized Businesses",
       desc: "Cost-effective, high-conversion sites designed to build trust and improve local brand visibility in the Delhi NCR region.",
-      img: "/Img/app-dev.png",
+      img: "/Img/services/app-dev.png",
     },
     {
       title: "Ecommerce Brands",
       desc: "Scalable platforms using Shopify, WooCommerce, or custom solutions designed to reduce cart abandonment and manage complex inventory.",
-      img: "/Img/crm-sol.png",
+      img: "/Img/services/crm-sol.png",
     },
     {
       title: "Industry Professionals",
       desc: "Targeted landing pages for doctors, lawyers, boutique stores, and travel agencies in Delhi.",
-      img: "/Img/seo-market.png",
+      img: "/Img/services/seo-market.png",
     },
     {
       title: "Enterprise Companies",
       desc: "Complex web applications requiring advanced backend functionality via Laravel or high-speed frontend performance via Next.js.",
-      img: "/Img/host-server.png",
+      img: "/Img/services/host-server.png",
     },
   ],
 };
@@ -222,27 +222,27 @@ const DEFAULT_FEATURES: FeaturesConfig = {
   list: [
     {
       title: "AI-Powered Personalization",
-      img: "/Img/web-dev.png",
+      img: "/Img/services/web-dev.png",
       desc: "We integrate AI chatbots for small business websites to automate lead generation and provide 24/7 customer support.",
     },
     {
       title: "Mobile-First Responsive Design",
-      img: "/Img/app-dev.png",
+      img: "/Img/services/app-dev.png",
       desc: 'With most Indian users browsing on smartphones, we ensure your site is "thumb-friendly" and passes all mobile SEO benchmarks.',
     },
     {
       title: "Core Web Vitals & Speed Optimization",
-      img: "/Img/crm-sol.png",
+      img: "/Img/services/crm-sol.png",
       desc: "We optimize scripts, caching, and images to ensure lightning-fast loading speeds, which directly improves search rankings and user retention.",
     },
     {
       title: "SEO-Friendly Architecture",
-      img: "/Img/seo-market.png",
+      img: "/Img/services/seo-market.png",
       desc: "Beyond basic keywords, we implement proper heading hierarchy, schema markup, internal linking, and crawl-friendly code to ensure visibility.",
     },
     {
       title: "Advanced Security",
-      img: "/Img/host-server.png",
+      img: "/Img/services/host-server.png",
       desc: "Every site includes SSL integration, secure coding practices, and malware protection to safeguard business and customer data.",
     },
   ],
@@ -261,27 +261,27 @@ const DEFAULT_TECH_STACK: TechStackConfig = {
     {
       title: "Laravel Development",
       desc: "Ideal for enterprise-level solutions and custom web applications that require robust backend security and complex logic.",
-      img: "/Img/web-dev.png",
+      img: "/Img/services/web-dev.png",
     },
     {
       title: "React.js & Next.js",
       desc: "The gold standard for modern, ultra-fast websites that offer superior user experiences and high scalability.",
-      img: "/Img/app-dev.png",
+      img: "/Img/services/app-dev.png",
     },
     {
       title: "Custom WordPress",
       desc: "For businesses that need flexible content management without sacrificing SEO support or design freedom.",
-      img: "/Img/crm-sol.png",
+      img: "/Img/services/crm-sol.png",
     },
     {
       title: "Shopify & Ecommerce",
       desc: "Secure and scalable online store solutions designed to reduce cart abandonment and manage complex inventory.",
-      img: "/Img/host-server.png",
+      img: "/Img/services/host-server.png",
     },
     {
       title: "Headless CMS",
       desc: "Separating content from design for businesses looking for multi-platform delivery and future-proof tech stacks.",
-      img: "/Img/seo-market.png",
+      img: "/Img/services/seo-market.png",
     },
   ],
 };
@@ -355,7 +355,7 @@ const DEFAULT_LOCAL_DOMINANCE: LocalDominanceConfig = {
   cards: [
     {
       title: "Hyper-Targeted Engineering",
-      img: "/Img/web-dev.png",
+      img: "/Img/services/web-dev.png",
       desc: (
         <>
           We structurally integrate{" "}
@@ -378,7 +378,7 @@ const DEFAULT_LOCAL_DOMINANCE: LocalDominanceConfig = {
     },
     {
       title: "Sector-Specific Domination",
-      img: "/Img/app-dev.png",
+      img: "/Img/services/app-dev.png",
       desc: (
         <>
           Whether targeting{" "}

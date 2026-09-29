@@ -109,13 +109,13 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Launch a robust, fully customizable multi-vendor or single-vendor online marketplace. Built with Next.js, modern databases, and optimized for maximum conversions.",
     ctaText: "Get Started",
-    imageSrc: "/Img/ecc1.png",
+    imageSrc: "/Img/products/ecc1.png",
     imageAlt: "Enterprise E-commerce Suite",
     additionalImages: [
-      "/Img/ecc2.png",
-      "/Img/ecc3.png",
-      "/Img/ecc4.png",
-      "/Img/ecc5.png",
+      "/Img/products/ecc2.png",
+      "/Img/products/ecc3.png",
+      "/Img/products/ecc4.png",
+      "/Img/products/ecc5.png",
     ],
     showGallery: true,
   },
@@ -125,13 +125,13 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Supercharge your local dispatch. Our system integrates dark store inventory, rapid rider allocation, and real-time mapping for sub-10 minute deliveries.",
     ctaText: "Request Demo",
-    imageSrc: "/Img/ecc2.png",
+    imageSrc: "/Img/products/ecc2.png",
     imageAlt: "Quick Commerce Engine",
     additionalImages: [
-      "/Img/ecc1.png",
-      "/Img/ecc3.png",
-      "/Img/ecc4.png",
-      "/Img/ecc5.png",
+      "/Img/products/ecc1.png",
+      "/Img/products/ecc3.png",
+      "/Img/products/ecc4.png",
+      "/Img/products/ecc5.png",
     ],
     showGallery: true,
   },
@@ -141,9 +141,9 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Sync your physical storefront with your online inventory instantly. Accept all payment methods, track register shifts, and generate reports on the fly.",
     ctaText: "See in Action",
-    imageSrc: "/Img/cloud2.png",
+    imageSrc: "/Img/clouds/cloud2.png",
     imageAlt: "Cloud POS System",
-    additionalImages: ["/Img/cloud1.png", "/Img/cloud2.png", "/Img/cloud3.png"],
+    additionalImages: ["/Img/clouds/cloud1.png", "/Img/clouds/cloud2.png", "/Img/clouds/cloud3.png"],
     showGallery: true,
   },
   "fleet-delivery": {
@@ -152,7 +152,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Automate driver dispatching, optimize delivery routes, and provide end-to-end live tracking for your customers with dedicated rider and admin apps.",
     ctaText: "Schedule Demo",
-    imageSrc: "/Img/ecc1.png",
+    imageSrc: "/Img/products/ecc1.png",
     imageAlt: "Fleet & Delivery Management",
     showGallery: false,
   },
@@ -162,9 +162,9 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Unify your accounting, supply chain, inventory, and human resource modules under a single, highly-secure cloud dashboard.",
     ctaText: "Consult Our Experts",
-    imageSrc: "/Img/cloud1.png",
+    imageSrc: "/Img/clouds/cloud1.png",
     imageAlt: "Cloud ERP System",
-    additionalImages: ["/Img/cloud1.png", "/Img/cloud2.png", "/Img/cloud3.png"],
+    additionalImages: ["/Img/clouds/cloud1.png", "/Img/clouds/cloud2.png", "/Img/clouds/cloud3.png"],
     showGallery: true,
   },
   "hrms-payroll": {
@@ -173,9 +173,9 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Manage employee shifts, automate employee management, attendance tracking, leave management, payroll processing, and handle employee lifecycles with absolute compliance.",
     ctaText: "Request Live Demo",
-    imageSrc: "/Img/pay1.png",
+    imageSrc: "/Img/misc/pay1.png",
     imageAlt: "HRMS & Payroll System",
-    additionalImages: ["/Img/cloud1.png", "/Img/cloud2.png", "/Img/cloud3.png"],
+    additionalImages: ["/Img/clouds/cloud1.png", "/Img/clouds/cloud2.png", "/Img/clouds/cloud3.png"],
     showGallery: true,
   },
   "omnichannel-crm": {
@@ -184,9 +184,9 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Centralize customer interactions into a unified platform. Unify WhatsApp, email, social, phone calls, and live chat to build long-term relationships.",
     ctaText: "Boost Sales Now",
-    imageSrc: "/Img/cloud3.png",
+    imageSrc: "/Img/clouds/cloud3.png",
     imageAlt: "Omni-channel CRM",
-    additionalImages: ["/Img/cloud1.png", "/Img/cloud2.png", "/Img/cloud3.png"],
+    additionalImages: ["/Img/clouds/cloud1.png", "/Img/clouds/cloud2.png", "/Img/clouds/cloud3.png"],
     showGallery: true,
   },
   "invoicing-billing": {
@@ -195,9 +195,9 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Automate your billing lifecycle from quotation to payment collection. GST invoicing, recurring billing, and online payment integrations built for your business.",
     ctaText: "Try Billing Suite",
-    imageSrc: "/Img/invoice1.png",
+    imageSrc: "/Img/misc/invoice1.png",
     imageAlt: "Invoicing & Billing Portal",
-    additionalImages: ["/Img/cloud1.png", "/Img/cloud2.png", "/Img/cloud3.png"],
+    additionalImages: ["/Img/clouds/cloud1.png", "/Img/clouds/cloud2.png", "/Img/clouds/cloud3.png"],
     showGallery: true,
   },
   "travel-agency": {
@@ -206,7 +206,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Create flight & hotel itineraries, manage direct bookings, handle visa processes, and generate invoice statements for holiday operators.",
     ctaText: "Modernize Booking",
-    imageSrc: "/Img/travel1.png",
+    imageSrc: "/Img/misc/travel1.png",
     imageAlt: "Travel Agency Suite",
     showGallery: true,
   },
@@ -216,7 +216,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Present high-definition property listings, engage hot leads, integrate virtual tours, and manage agents with robust CRM workflows.",
     ctaText: "Explore Platform",
-    imageSrc: "/Img/real1.png",
+    imageSrc: "/Img/misc/real1.png",
     imageAlt: "Real Estate Suite",
     showGallery: true,
   },
@@ -226,7 +226,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Menu management, table reservations, and integrated kitchen display systems.",
     ctaText: "Deploy to Kitchen",
-    imageSrc: "/Img/restaurant1.webp",
+    imageSrc: "/Img/misc/restaurant1.webp",
     imageAlt: "Restaurant Management Platform",
     showGallery: true,
   },
@@ -236,7 +236,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Deploy white-labeled digital training hubs, host video lessons, design quizzes, track progress, and award certificates to students.",
     ctaText: "Create Academy",
-    imageSrc: "/Img/learn1.png",
+    imageSrc: "/Img/misc/learn1.png",
     imageAlt: "Learning Management System (LMS)",
     showGallery: true,
   },
@@ -246,7 +246,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Automate sales, marketing, and customer support with the official WhatsApp Business ecosystem. Respond instantly, nurture leads, and scale conversations.",
     ctaText: "Request Live Demo",
-    imageSrc: "/Img/partners_hero.webp",
+    imageSrc: "/Img/misc/partners_hero.webp",
     imageAlt: "WhatsApp Business Platform",
     showGallery: false,
   },
@@ -256,7 +256,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Create automated customer journeys that generate leads, increase conversions, and improve customer retention automatically.",
     ctaText: "Automate Campaigns",
-    imageSrc: "/Img/store3.webp",
+    imageSrc: "/Img/products/store3.webp",
     imageAlt: "Email Automation Platform",
     showGallery: false,
   },
@@ -266,7 +266,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Peltown Helpdesk & Ticketing System ensures every customer request is tracked, assigned, prioritized, and resolved efficiently. Turn customer support into a growth driver instead of a bottleneck.",
     ctaText: "Optimize Support",
-    imageSrc: "/Img/store4.webp",
+    imageSrc: "/Img/products/store4.webp",
     imageAlt: "Helpdesk Ticketing System",
     showGallery: false,
   },
@@ -276,7 +276,7 @@ export const PRODUCTS_HERO_CONTENT: Record<string, ProductHeroData> = {
     description:
       "Peltown Appointment Booking Platform automates scheduling and customer communication so your team can focus on serving customers instead of managing calendars.",
     ctaText: "Set Up Calendar",
-    imageSrc: "/Img/store5.webp",
+    imageSrc: "/Img/products/store5.webp",
     imageAlt: "Appointment Booking Engine",
     showGallery: false,
   },
@@ -642,7 +642,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Landing Pages",
           "Blog Management",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/web-development",
       },
       {
@@ -659,7 +659,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Inventory Tracking",
           "Product Reviews",
         ],
-        image: "/Img/store2.webp",
+        image: "/Img/products/store2.webp",
         href: "/services/erp-system",
       },
       {
@@ -675,7 +675,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Refund Management",
           "Order History",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/custom-crm",
       },
       {
@@ -690,7 +690,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Multi-Location Inventory",
           "Purchase Management",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/erp-system",
       },
       {
@@ -705,7 +705,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Customer Notes",
           "Marketing Automation",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/custom-crm",
       },
       {
@@ -721,7 +721,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Net Banking",
           "Credit & Debit Cards",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/web-development",
       },
       {
@@ -736,7 +736,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Courier Management",
           "Multiple Shipping Methods",
         ],
-        image: "/Img/store5.webp",
+        image: "/Img/products/store5.webp",
         href: "/services/web-development",
       },
       {
@@ -752,7 +752,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Marketing Performance",
           "Conversion Analytics",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/seo-optimization",
       },
       {
@@ -767,7 +767,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Vendor Payments",
           "Product Approval System",
         ],
-        image: "/Img/how4.webp",
+        image: "/Img/how_to/how4.webp",
         href: "/services/web-development",
       },
       {
@@ -782,7 +782,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Credit Limits",
           "Business Accounts",
         ],
-        image: "/Img/about_peltown.webp",
+        image: "/Img/misc/about_peltown.webp",
         href: "/services/web-development",
       },
       {
@@ -796,7 +796,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Vendor App",
           "Delivery App",
         ],
-        image: "/Img/partners_hero.webp",
+        image: "/Img/misc/partners_hero.webp",
         href: "/services/mobile-app",
       },
       {
@@ -814,7 +814,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Push Notifications",
           "Product Recommendations",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/digital-marketing",
       },
     ],
@@ -837,7 +837,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Multiple Payment Gateways",
           "Live GPS Order Tracking",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/web-development",
       },
       {
@@ -852,7 +852,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Efficient Picking & Packing Workflows",
           "Micro-Fulfillment Center Optimization",
         ],
-        image: "/Img/store2.webp",
+        image: "/Img/products/store2.webp",
         href: "/services/erp-system",
       },
       {
@@ -867,7 +867,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "SKU & Variant Lifecycle Management",
           "Product Option Mapping",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/erp-system",
       },
       {
@@ -883,7 +883,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Return Request Workflows",
           "Fulfillment Analytics & Reports",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/custom-crm",
       },
       {
@@ -898,7 +898,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Proof of Delivery (OTP/Photo)",
           "Fleet Performance & Payout Reports",
         ],
-        image: "/Img/store5.webp",
+        image: "/Img/products/store5.webp",
         href: "/services/mobile-app",
       },
       {
@@ -914,7 +914,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Inbound/Outbound Tracking",
           "Scalable Hyperlocal Logistics",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/erp-system",
       },
     ],
@@ -938,7 +938,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Quick Billing Interface",
           "Return, Refund & Discount Management",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/web-development",
       },
       {
@@ -954,7 +954,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Warehouse Stock Tracking",
           "Automated Purchase Orders",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/erp-system",
       },
       {
@@ -970,7 +970,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Real-Time Branch Analytics",
           "Automated Product Catalog Sync",
         ],
-        image: "/Img/store5.webp",
+        image: "/Img/products/store5.webp",
         href: "/services/erp-system",
       },
       {
@@ -986,7 +986,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Birthday Offers & Promotions",
           "Advanced Customer Insights",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1002,7 +1002,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Inventory Cost Tracking",
           "Automated Stock Replenishment",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/erp-system",
       },
       {
@@ -1018,7 +1018,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Staff Activity Performance Logs",
           "Tax Compliance Reports",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/seo-optimization",
       },
       {
@@ -1033,7 +1033,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Unified Customer Order Management",
           "Profile & Loyalty Sync Across Channels",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/web-development",
       },
     ],
@@ -1057,7 +1057,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Speed Limit Monitoring",
           "Trip Logs & Utilization Reports",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/mobile-app",
       },
       {
@@ -1073,7 +1073,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "High-Efficiency Automated Dispatch",
           "Urgent Delivery Prioritization",
         ],
-        image: "/Img/store2.webp",
+        image: "/Img/products/store2.webp",
         href: "/services/mobile-app",
       },
       {
@@ -1089,7 +1089,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Driver Workload Balance Map",
           "Geographic Territory Management",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/seo-optimization",
       },
       {
@@ -1105,7 +1105,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Safe Driving Scoring Matrix",
           "Native Mobile Driver Application",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/mobile-app",
       },
       {
@@ -1121,7 +1121,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Instant Delivery Confirmation",
           "Failed Delivery Reason Tracking",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/web-development",
       },
       {
@@ -1137,7 +1137,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "GPS Verified Drop Coordinates",
           "Automatic Timestamp Verification",
         ],
-        image: "/Img/store5.webp",
+        image: "/Img/products/store5.webp",
         href: "/services/mobile-app",
       },
       {
@@ -1153,7 +1153,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Vehicle Efficiency Analytics",
           "Consolidated Fuel Costs Dashboard",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/erp-system",
       },
       {
@@ -1169,7 +1169,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Fitness & Transport Permit Alerts",
           "Regulatory Compliance Scoring",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/erp-system",
       },
     ],
@@ -1191,7 +1191,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Automated bank ledger feed sync plugins",
           "Consolidated profit & loss statement generators",
         ],
-        image: "/Img/store5.webp",
+        image: "/Img/products/store5.webp",
         href: "/services/erp-system",
       },
       {
@@ -1205,7 +1205,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Vendor rate sheet comparison tables",
           "Incoming cargo inspection checklist forms",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1219,7 +1219,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Full immutable document change histories",
           "Daily secure database backups schedules",
         ],
-        image: "/Img/how4.webp",
+        image: "/Img/how_to/how4.webp",
         href: "/services/web-development",
       },
       {
@@ -1233,7 +1233,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Operational bottleneck indicators",
           "One-click corporate report compilers",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/digital-marketing",
       },
     ],
@@ -1255,7 +1255,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Shift roster scheduling & late arrival rules",
           "Timesheet corrections & holiday calendar management",
         ],
-        image: "/Img/about_peltown.webp",
+        image: "/Img/misc/about_peltown.webp",
         href: "/services/erp-system",
       },
       {
@@ -1269,7 +1269,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Automated compliance reporting & payslip distribution",
           "Bonus, incentives, loans, & reimbursement tracking",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1283,7 +1283,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "KPI tracking, reviews, & appraisals cycles",
           "Employee development & progress dashboards",
         ],
-        image: "/Img/how4.webp",
+        image: "/Img/how_to/how4.webp",
         href: "/services/web-development",
       },
       {
@@ -1297,7 +1297,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Real-time team turnover & overtime dashboards",
           "Bi-directional approvals via Mobile Apps & Web portal",
         ],
-        image: "/Img/store2.webp",
+        image: "/Img/products/store2.webp",
         href: "/services/digital-marketing",
       },
     ],
@@ -1319,7 +1319,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Follow-up scheduling and automated notification alerts",
           "Revenue forecasting and bottleneck analysis charts",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1333,7 +1333,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Email integration with campaign template builders",
           "Continuous timeline history as clients switch channels",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/whatsapp-api",
       },
       {
@@ -1347,7 +1347,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "SLA ticket tracking and escalation path alerts",
           "Automated lead nurturing based on page clicks",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/seo-optimization",
       },
       {
@@ -1361,7 +1361,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Campaign conversion rates and agent scorecard tables",
           "Custom data reports and Excel exports",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/digital-marketing",
       },
     ],
@@ -1383,7 +1383,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Proforma invoices, credit notes, and debit notes templates",
           "Multi-currency support for global cross-border billing",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/erp-system",
       },
       {
@@ -1397,7 +1397,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Partial payment setups and outstanding customer ledgers",
           "Real-time receivables tracking and payment logs",
         ],
-        image: "/Img/store5.webp",
+        image: "/Img/products/store5.webp",
         href: "/services/web-development",
       },
       {
@@ -1411,7 +1411,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Automated tax summaries and GSTR billing report exports",
           "Multi-state tax compliance structures validation",
         ],
-        image: "/Img/how4.webp",
+        image: "/Img/how_to/how4.webp",
         href: "/services/seo-optimization",
       },
       {
@@ -1425,7 +1425,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Mobile Apps (Android & iOS) and tablet dashboard tools",
           "Role-based staff billing permissions profiles",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/digital-marketing",
       },
     ],
@@ -1445,7 +1445,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Lead Source Tracking & Sales Pipeline",
           "Customer Communication History & Conversion Reports",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1459,7 +1459,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Hotel & Transport Details Integration",
           "PDF Itinerary Generation & Custom Branding",
         ],
-        image: "/Img/partners_hero.webp",
+        image: "/Img/misc/partners_hero.webp",
         href: "/services/web-development",
       },
       {
@@ -1473,7 +1473,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Local Tour Operator & Airline Partners Coordination",
           "Booking Status/History Tracking & Vendor Payments",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/erp-system",
       },
       {
@@ -1486,7 +1486,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Visa Applications, Document Management & Status Tracking",
           "Appointment Scheduling & Customer Status Notifications",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1499,7 +1499,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Customer Portal for Booking, Itineraries & Visa Status",
           "Travel Documents Download & Support Request portal",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/web-development",
       },
       {
@@ -1512,7 +1512,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "B2B Agent Pricing, Commission tracking & Wallet System",
           "Admin & Customer Mobile Apps (iOS & Android)",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/mobile-app",
       },
     ],
@@ -1532,7 +1532,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Follow-Ups & Call Tracking Automation",
           "Lead Source Tracking & Communication History",
         ],
-        image: "/Img/how4.webp",
+        image: "/Img/how_to/how4.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1545,7 +1545,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "360° Virtual Tours & Floor Plans",
           "Property Gallery & Walkthrough Videos",
         ],
-        image: "/Img/store2.webp",
+        image: "/Img/products/store2.webp",
         href: "/services/web-development",
       },
       {
@@ -1558,7 +1558,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Customer Feedback Collection & Reports",
           "GPS Tracking for On-Field Sales Teams",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1571,7 +1571,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Installments & Outstanding Dues Management",
           "GST Invoicing & Customer Financial Ledgers",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/erp-system",
       },
       {
@@ -1584,7 +1584,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Customer Portal for Booking & Payments Status",
           "Construction Updates & Support Requests Tracking",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1597,7 +1597,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Sales Team App for Visits & Follow-Ups",
           "Customer App for Listings & Support",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/mobile-app",
       },
     ],
@@ -1619,7 +1619,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Direct guest table mobile payment checkouts",
           "Item out-of-stock indicators dashboards",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/web-development",
       },
       {
@@ -1633,7 +1633,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Interactive order ticket check-off controls",
           "Dish recipe detail lookup buttons",
         ],
-        image: "/Img/store5.webp",
+        image: "/Img/products/store5.webp",
         href: "/services/erp-system",
       },
       {
@@ -1647,7 +1647,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Average table turnover analytics charts",
           "Customer dining history review dashboards",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1661,7 +1661,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Supplier invoice parsing tools integrations",
           "Daily inventory waste audit templates",
         ],
-        image: "/Img/store2.webp",
+        image: "/Img/products/store2.webp",
         href: "/services/digital-marketing",
       },
     ],
@@ -1681,7 +1681,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Interactive Lessons & Prerequisites",
           "PDFs, Documents & Multimedia Uploads",
         ],
-        image: "/Img/store2.webp",
+        image: "/Img/products/store2.webp",
         href: "/services/web-development",
       },
       {
@@ -1694,7 +1694,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Bulk Enrollment & Access Control Management",
           "Integrated Student Notifications & Communication",
         ],
-        image: "/Img/partners_hero.webp",
+        image: "/Img/misc/partners_hero.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1707,7 +1707,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Class Scheduling & Attendance tracking",
           "Interactive Discussions & Session Recordings",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/web-development",
       },
       {
@@ -1720,7 +1720,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Branded PDF Completion Certificates",
           "QR Code Verification & Validation portals",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1733,7 +1733,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Android & iOS Apps with Offline Learning",
           "Mobile Assessments & Push Notifications",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/mobile-app",
       },
       {
@@ -1746,7 +1746,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Course Selling Marketplace & Subscriptions/Coupons",
           "Course Completion, Performance & Revenue Reports",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/erp-system",
       },
     ],
@@ -1767,7 +1767,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Campaign Scheduling & Mass Broadcasts",
           "Universal Meta Infrastructure API Integration",
         ],
-        image: "/Img/partners_hero.webp",
+        image: "/Img/misc/partners_hero.webp",
         href: "/services/whatsapp-api",
       },
       {
@@ -1780,7 +1780,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Interactive Dashboard & Sales Follow-Ups",
           "Audience Segmentation & Behavior tracking",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1793,7 +1793,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Product Recommendation AI Engines",
           "Automated FAQ & Dynamic reply workflows",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/whatsapp-api",
       },
       {
@@ -1806,7 +1806,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Complete Conversation History & Logs",
           "Granular User Permissions & Activity Logs",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1820,7 +1820,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Appointment & Payment Reminders",
           "Dynamic Booking Confirmations & Event Alerts",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/whatsapp-api",
       },
       {
@@ -1833,7 +1833,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Web Dashboard, Android, & iOS Applications",
           "Message Delivery, Response Rate & Agent Performance reports",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/mobile-app",
       },
     ],
@@ -1853,7 +1853,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "A/B Testing & Personalization tags",
           "Pre-designed Responsive Campaign Templates",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/email-solutions",
       },
       {
@@ -1866,7 +1866,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Lead Scoring & Automated Sales Alerts",
           "Personalized Customer Journey Automation",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1879,7 +1879,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "New Customer Welcome Series & Education",
           "Training Content Delivery & Milestone Tracking",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/email-solutions",
       },
       {
@@ -1892,7 +1892,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Order Confirmations & Shipping Notifications",
           "Renewal Reminders, Birthday & Anniversary Campaigns",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/erp-system",
       },
       {
@@ -1905,7 +1905,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "AI Content Suggestions & Send-Time Optimization",
           "AI Predictive Analytics & Recommendations",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1918,7 +1918,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Automated Bounce & Reputation Management",
           "Analytics: Open, Click, and Conversion tracking",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/email-solutions",
       },
     ],
@@ -1943,7 +1943,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Customer Relationship History Dashboard",
           "Customer Profiles & Communication Logs",
         ],
-        image: "/Img/store4.webp",
+        image: "/Img/products/store4.webp",
         href: "/services/custom-crm",
       },
       {
@@ -1960,7 +1960,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Facebook & Instagram DM Integrations",
           "Mobile App Push Notifications",
         ],
-        image: "/Img/how1.webp",
+        image: "/Img/how_to/how1.webp",
         href: "/services/whatsapp-api",
       },
       {
@@ -1977,7 +1977,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Supervisor Override Controls",
           "Department Accountability Reports",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/erp-system",
       },
       {
@@ -1994,7 +1994,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Reduce Repetitive Support Requests",
           "Seamless White-Labeled Domain Setup",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/seo-optimization",
       },
       {
@@ -2011,7 +2011,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Instant Ticket Creation Chatbots",
           "24/7 Intelligent Customer Guidance",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/web-development",
       },
       {
@@ -2029,7 +2029,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "SLA Compliance & Breach Reports",
           "Customer Satisfaction (CSAT) Surveys",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/custom-crm",
       },
     ],
@@ -2052,7 +2052,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Appointment Cancellation Workflows",
           "Convert Visitors to Confirmed Bookings",
         ],
-        image: "/Img/store5.webp",
+        image: "/Img/products/store5.webp",
         href: "/services/web-development",
       },
       {
@@ -2067,7 +2067,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Resource & Equipment Allocation",
           "Bi-Directional Calendar Synchronization",
         ],
-        image: "/Img/how4.webp",
+        image: "/Img/how_to/how4.webp",
         href: "/services/erp-system",
       },
       {
@@ -2082,7 +2082,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Service Assignments by Skills",
           "Capacity Planning & Load Balancing",
         ],
-        image: "/Img/how3.webp",
+        image: "/Img/how_to/how3.webp",
         href: "/services/erp-system",
       },
       {
@@ -2097,7 +2097,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Reschedule & Cancel Alerts",
           "Follow-Up & Feedback Messages",
         ],
-        image: "/Img/how2.webp",
+        image: "/Img/how_to/how2.webp",
         href: "/services/whatsapp-api",
       },
       {
@@ -2112,7 +2112,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Portal Booking, Rescheduling & Cancelling",
           "Mobile Booking Apps (Customer & Staff)",
         ],
-        image: "/Img/store1.webp",
+        image: "/Img/products/store1.webp",
         href: "/services/custom-crm",
       },
       {
@@ -2127,7 +2127,7 @@ export const PRODUCTS_DETAIL_CONTENT: Record<string, DetailSectionData> = {
           "Appointment & Revenue Reports",
           "Cancellation & No-Show Trend Analysis",
         ],
-        image: "/Img/store3.webp",
+        image: "/Img/products/store3.webp",
         href: "/services/digital-marketing",
       },
     ],

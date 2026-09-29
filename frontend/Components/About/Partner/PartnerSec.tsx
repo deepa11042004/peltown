@@ -99,7 +99,7 @@ export default function PartnerSec() {
           {/* Framed Next.js Image Component */}
           <div className="relative w-full h-full bg-zinc-900/40 border border-zinc-800 rounded-2xl overflow-hidden group">
             <Image
-              src="/Img/partners_hero.webp"
+              src="/Img/misc/partners_hero.webp"
               alt="Professional partnership shaking hands at PELTOWN"
               fill
               sizes="(max-w-768px) 100vw, 40vw"

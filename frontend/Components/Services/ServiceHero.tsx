@@ -36,7 +36,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/web.png",
+    image: "/Img/services/web.png",
     imageAlt: "Website development presentation",
   },
   "erp-system": {
@@ -46,7 +46,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/CRM.png",
+    image: "/Img/services/CRM.png",
     imageAlt: "ERP software system presentation",
   },
   "mobile-app": {
@@ -56,7 +56,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/app.png",
+    image: "/Img/services/app.png",
     imageAlt: "Mobile app showcase",
   },
   "custom-crm": {
@@ -66,7 +66,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/CRM.png",
+    image: "/Img/services/CRM.png",
     imageAlt: "CRM platform presentation",
   },
   "seo-optimization": {
@@ -76,7 +76,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/web.png",
+    image: "/Img/services/web.png",
     imageAlt: "SEO optimization mockup",
   },
   "social-media": {
@@ -86,7 +86,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/app.png",
+    image: "/Img/services/app.png",
     imageAlt: "Social media application showcase",
   },
   "digital-marketing": {
@@ -96,7 +96,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/web.png",
+    image: "/Img/services/web.png",
     imageAlt: "Digital marketing presentation",
   },
   "gmb-services": {
@@ -106,7 +106,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/app.png",
+    image: "/Img/services/app.png",
     imageAlt: "Google My Business profile mockup",
   },
   "service-photoshoot": {
@@ -116,7 +116,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/web.png",
+    image: "/Img/services/web.png",
     imageAlt: "Service photoshoot portfolio",
   },
   "service-branding": {
@@ -126,7 +126,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/web.png",
+    image: "/Img/services/web.png",
     imageAlt: "Service branding and design mockup",
   },
   "bulk-email": {
@@ -136,7 +136,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/web.png",
+    image: "/Img/services/web.png",
     imageAlt: "Bulk email software presentation",
   },
   "whatsapp-api": {
@@ -146,7 +146,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/app.png",
+    image: "/Img/services/app.png",
     imageAlt: "WhatsApp API messaging showcase",
   },
   "email-solutions": {
@@ -156,7 +156,7 @@ const ROUTE_CONFIGS: Record<
     dot: "bg-white",
     badgeBorder: "border-white/20",
     badgeBg: "bg-white/10",
-    image: "/Img/web.png",
+    image: "/Img/services/web.png",
     imageAlt: "Email solutions mockup",
   },
 };
@@ -168,7 +168,7 @@ const DEFAULT_CONFIG = {
   dot: "bg-black",
   badgeBorder: "border-black/20",
   badgeBg: "bg-black/10",
-  image: "/Img/web.png",
+  image: "/Img/services/web.png",
   imageAlt: "Phone mockup presentation",
 };
 

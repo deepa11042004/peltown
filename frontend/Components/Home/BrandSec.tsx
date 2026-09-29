@@ -6,28 +6,28 @@ import { motion } from "framer-motion";
 const floatingApps = [
   // Left side logos
   {
-    src: "/Img/Godaddy.png",
+    src: "/Img/hosting/Godaddy.png",
     alt: "GoDaddy",
     className: "left-[4%] top-[8%]",
     size: "w-20 h-20 md:w-28 md:h-28",
     delay: 0,
   },
   {
-    src: "/Img/BlueHost.png",
+    src: "/Img/hosting/BlueHost.png",
     alt: "Bluehost",
     className: "left-[14%] top-[28%]",
     size: "w-20 h-20 md:w-28 md:h-28",
     delay: 0.3,
   },
   {
-    src: "/Img/Bigrock.png",
+    src: "/Img/hosting/Bigrock.png",
     alt: "BigRock",
     className: "left-[3%] top-[52%]",
     size: "w-20 h-20 md:w-28 md:h-28",
     delay: 0.6,
   },
   {
-    src: "/Img/Hostinger.png",
+    src: "/Img/hosting/Hostinger.png",
     alt: "Hostinger",
     className: "left-[12%] bottom-[10%]",
     size: "w-20 h-20 md:w-28 md:h-28",
@@ -36,28 +36,28 @@ const floatingApps = [
 
   // Right side logos
   {
-    src: "/Img/Namecheap.png",
+    src: "/Img/hosting/Namecheap.png",
     alt: "Namecheap",
     className: "right-[4%] top-[8%]",
     size: "w-20 h-20 md:w-28 md:h-28",
     delay: 0.2,
   },
   {
-    src: "/Img/Digitalocean.png",
+    src: "/Img/hosting/Digitalocean.png",
     alt: "DigitalOcean",
     className: "right-[14%] top-[28%]",
     size: "w-20 h-20 md:w-28 md:h-28",
     delay: 0.5,
   },
   {
-    src: "/Img/Hostgator.png",
+    src: "/Img/hosting/Hostgator.png",
     alt: "HostGator",
     className: "right-[3%] top-[52%]",
     size: "w-20 h-20 md:w-28 md:h-28",
     delay: 0.8,
   },
   {
-    src: "/Img/Aws.png",
+    src: "/Img/hosting/Aws.png",
     alt: "AWS",
     className: "right-[12%] bottom-[10%]",
     size: "w-20 h-20 md:w-28 md:h-28",

@@ -31,7 +31,7 @@ const products = [
     description:
       "A complete chic e-commerce solution with admin panel, dynamic cart management, and pre-integrated multi-gateway payment channels.",
     priceUSD: 299,
-    image: "/Img/store1.webp", // Falls back gracefully if local asset does not exist
+    image: "/Img/products/store1.webp", // Falls back gracefully if local asset does not exist
     badge: "Best Seller",
   },
   {
@@ -41,7 +41,7 @@ const products = [
     description:
       "Modern tech store theme featuring robust product specification grids, structured user review engines, and a blazing fast interface.",
     priceUSD: 349,
-    image: "/Img/store2.webp",
+    image: "/Img/products/store2.webp",
     badge: "Hot Choice",
   },
   {
@@ -51,7 +51,7 @@ const products = [
     description:
       "Comprehensive educational platform with online course registries, student assessment modules, and intuitive grading dashboards.",
     priceUSD: 399,
-    image: "/Img/store3.webp",
+    image: "/Img/products/store3.webp",
     badge: "Enterprise",
   },
   {
@@ -61,7 +61,7 @@ const products = [
     description:
       "An elegant interactive menu and table reservation engine designed to skyrocket local customer acquisitions.",
     priceUSD: 279,
-    image: "/Img/store4.webp",
+    image: "/Img/products/store4.webp",
     badge: "New Release",
   },
   {
@@ -71,7 +71,7 @@ const products = [
     description:
       "A comprehensive plug-and-play dashboard console with metric widgets, data exports, and subscription management templates.",
     priceUSD: 499,
-    image: "/Img/store5.webp",
+    image: "/Img/products/store5.webp",
     badge: "Advanced",
   },
 ];
@@ -198,7 +198,7 @@ export default function StoreSec() {
             <div className="relative group w-full max-w-lg aspect-square rounded-3xl overflow-hidden bg-zinc-50 border border-zinc-100 shadow-xl shadow-zinc-100/50">
               {/* Image mapping request */}
               <Image
-                src="/Img/about_peltown.webp"
+                src="/Img/misc/about_peltown.webp"
                 alt="Premium ready-made product illustration ecosystem"
                 fill
                 priority

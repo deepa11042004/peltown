@@ -11,18 +11,21 @@ const HERO_CONTENT = [
     highlight: "Website Design",
     subtext: "App Development.",
     desc: "The best place for all IT solutions in one place. We specialize in modern website development, high-performance mobile apps, and creative UI/UX design.",
+    image: "/mimi web app1.png",
   },
   {
     tagline: "Enterprise Systems",
     highlight: "Custom CRM",
     subtext: "ERP Solutions.",
     desc: "Streamline your business operations with our bespoke CRM and ERP systems. Tailored specifically for your unique organizational workflows.",
+    image: "/Img/mimi erp-crm.png",
   },
   {
     tagline: "Digital Marketing",
     highlight: "Results-Driven",
     subtext: "Digital Marketing.",
     desc: "Dominate search engines and social media. Let our experts drive targeted traffic and increase your online revenue exponentially.",
+    image: "/Img/mimi digital.png",
   },
 ];
 
@@ -151,7 +154,7 @@ export default function Home() {
             className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center"
             variants={itemVariants}
           >
-            <button className="px-6 py-3 sm:px-8 sm:py-4 bg-neutral-300 text-black font-medium rounded-full text-base sm:text-lg hover:bg-white transition-colors duration-200 shadow-lg active:scale-98 flex items-center justify-center gap-2 group w-full sm:w-auto cursor-pointer">
+            <button className="px-6 py-3 sm:px-8 sm:py-4 bg-white text-black font-medium rounded-full text-base sm:text-lg hover:bg-neutral-100 transition-colors duration-200 shadow-lg active:scale-98 flex items-center justify-center gap-2 group w-full sm:w-auto cursor-pointer">
               Get Started
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
@@ -167,13 +170,24 @@ export default function Home() {
           className="relative w-full lg:w-[50%] aspect-square max-w-125 pointer-events-none hidden lg:block select-none z-0"
           variants={itemVariants}
         >
-          <Image
-            src="/Img/main.webp"
-            alt="Hero Illustration"
-            fill
-            priority
-            className="object-contain object-right mt-5"
-          />
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, scale: 0.95, filter: "blur(8px)" }}
+              animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
+              exit={{ opacity: 0, scale: 0.95, filter: "blur(8px)" }}
+              transition={{ duration: 0.4, ease: "easeOut" }}
+              className="relative w-full h-full"
+            >
+              <Image
+                src={HERO_CONTENT[index].image}
+                alt={HERO_CONTENT[index].highlight}
+                fill
+                priority
+                className="object-contain object-right mt-5"
+              />
+            </motion.div>
+          </AnimatePresence>
         </motion.div>
       </motion.div>
 

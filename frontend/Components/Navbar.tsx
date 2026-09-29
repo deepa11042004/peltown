@@ -88,28 +88,34 @@ const servicesData = [
     icon: TrendingUp,
     items: [
       {
-        name: "SEO Optimization",
-        desc: "Rank higher on search engines",
+        name: "SEO + Local SEO",
+        desc: "Rank higher on search engines locally",
         icon: Search,
-        href: "/services/seo-optimization",
+        href: "/services/seo",
       },
       {
-        name: "Social Media",
+        name: "Social Media Marketing",
         desc: "Grow digital presence & organic reach",
         icon: Share2,
         href: "/services/social-media",
       },
       {
-        name: "Digital Marketing",
-        desc: "Performance-led paid campaigns",
-        icon: TrendingUp,
-        href: "/services/digital-marketing",
-      },
-      {
-        name: "Google My Business",
+        name: "Google Business Profile",
         desc: "Local optimization structures",
         icon: MapPin,
-        href: "/services/gmb-services",
+        href: "/services/google-business-profile",
+      },
+      {
+        name: "Google Ads",
+        desc: "Performance-led paid campaigns",
+        icon: TrendingUp,
+        href: "/services/google-ads",
+      },
+      {
+        name: "Meta Ads",
+        desc: "Targeted social media advertising",
+        icon: Zap,
+        href: "/services/meta-ads",
       },
     ],
   },
@@ -469,7 +475,7 @@ export default function Navbar() {
             {/* BRAND LOGO */}
             <Link href="/" className="flex items-center select-none shrink-0">
               <Image
-                src="/Img/logo.webp"
+                src="/Img/misc/logo.webp"
                 alt="Peltown Studio Logo"
                 width={120}
                 height={36}

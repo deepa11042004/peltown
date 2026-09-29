@@ -194,22 +194,22 @@ export default function ServiceFeature({
     {
       title: "Your designer, from day one",
       desc: "A senior product designer fully dedicated to your company. Working like a founding designer, without the hiring process.",
-      img: "/Img/web-dev.png",
+      img: "/Img/services/web-dev.png",
     },
     {
       title: "Unlimited design requests",
       desc: "Submit as many tasks as you need. No per-task billing, no cap, no waiting list. Just continuous output.",
-      img: "/Img/web-dev.png",
+      img: "/Img/services/web-dev.png",
     },
     {
       title: "Fast turnaround",
       desc: "Get your designs delivered in 24-48 hours. Quick iterations and rapid prototyping for your products.",
-      img: "/Img/web-dev.png",
+      img: "/Img/services/web-dev.png",
     },
     {
       title: "Always available",
       desc: "Your designer is available during your working hours. Real-time collaboration and instant feedback.",
-      img: "/Img/web-dev.png",
+      img: "/Img/services/web-dev.png",
     },
   ];
 

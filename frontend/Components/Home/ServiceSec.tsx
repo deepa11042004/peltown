@@ -17,31 +17,31 @@ const SERVICES = [
     icon: Monitor,
     title: "Website Design",
     desc: "Sleek, SEO-friendly, and business-driven websites tailored to your goals.",
-    img: "/Img/web-dev.png",
+    img: "/Img/services/web-dev.png",
   },
   {
     icon: Smartphone,
     title: "Mobile App Development",
     desc: "Transform your ideas into fully functional, high-performing mobile applications.",
-    img: "/Img/app-dev.png",
+    img: "/Img/services/app-dev.png",
   },
   {
     icon: Database,
     title: "CRM Solutions",
     desc: "Enhance customer experiences and streamline management with custom CRMs.",
-    img: "/Img/crm-sol.png",
+    img: "/Img/services/crm-sol.png",
   },
   {
     icon: SearchCode,
     title: "SEO & Marketing",
     desc: "Increase online visibility and drive organic traffic with proven strategies.",
-    img: "/Img/seo-market.png",
+    img: "/Img/services/seo-market.png",
   },
   {
     icon: Server,
     title: "Hosting & Server",
     desc: "Reliable hosting solutions from basic breeze to turbo titan performance.",
-    img: "/Img/host-server.png",
+    img: "/Img/services/host-server.png",
   },
 ];
 
