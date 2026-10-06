@@ -157,10 +157,9 @@ export default function Projects() {
         </motion.div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => {
             const Icon = project.icon;
-            const isStaggered = index % 2 !== 0;
 
             return (
               <motion.a
@@ -176,7 +175,7 @@ export default function Projects() {
                   delay: index * 0.1,
                   ease: "easeOut",
                 }}
-                className={`group block ${isStaggered ? "md:mt-16" : ""}`}
+                className="group block"
               >
                 {/* Image Container */}
                 <div className="overflow-hidden mb-5 bg-neutral-200 rounded-2xl">
