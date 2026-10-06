@@ -541,12 +541,7 @@ export default function Navbar() {
                 </Link>
               </div>
 
-              <Link
-                href="/store"
-                className="text-sm font-bold text-zinc-600 hover:text-black px-4 py-2 rounded-md transition-colors"
-              >
-                LiveMarket
-              </Link>
+
 
               {/* Company Trigger Dropdown */}
               <div
@@ -896,13 +891,7 @@ export default function Navbar() {
                       onNavigate={closeMobileMenu}
                     />
 
-                    <Link
-                      href="/store"
-                      onClick={closeMobileMenu}
-                      className="block py-3.5 text-[15px] font-bold text-zinc-800 border-b border-zinc-100"
-                    >
-                      LiveMarket
-                    </Link>
+
 
                     <MobileAccordion
                       label="Company"
