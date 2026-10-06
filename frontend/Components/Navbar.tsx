@@ -311,11 +311,7 @@ const companyData = [
       { name: "Locations", icon: MapPin, href: "/about/locations" },
     ],
   },
-  {
-    category: "Portfolio",
-    icon: FolderGit2,
-    items: [{ name: "Portfolio", icon: FolderGit2, href: "/about/portfolio" }],
-  },
+
 ];
 
 // --- MOBILE ACCORDION ITEM ---
@@ -899,6 +895,14 @@ export default function Navbar() {
                       data={companyData}
                       onNavigate={closeMobileMenu}
                     />
+
+                    <Link
+                      href="/about/portfolio"
+                      onClick={closeMobileMenu}
+                      className="block py-3.5 text-[15px] font-bold text-zinc-800 border-b border-zinc-100"
+                    >
+                      Portfolio
+                    </Link>
                   </div>
 
                   {/* Footer: Phone + Action Buttons */}
